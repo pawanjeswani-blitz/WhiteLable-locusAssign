@@ -1,11 +1,10 @@
 # Check out https://docs.codemagic.io/getting-started/yaml/for more information
 
 workflows:
-  android-workflow:
-    name: Android Workflow
-    max_build_duration: 60
-    instance_type: mac_mini
-    environment:
+    native-android:
+        name: Native Android
+        instance_type: mac_mini
+        environment:
             groups:
             # Add the group environment variables in Codemagic UI (either in Application/Team variables) - https://docs.codemagic.io/variables/environment-variable-groups/
                 - aws_credentials # <-- (Includes AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_PROJECT_ARN, AWS_DEVICE_POOL_ARN, AWS_DEFAULT_REGION)
