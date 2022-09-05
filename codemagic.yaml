@@ -3,7 +3,7 @@
 workflows:
     native-android:
         name: Native Android
-        instance_type: mac_pro
+        instance_type: linux
         environment:
             groups:
             # Add the group environment variables in Codemagic UI (either in Application/Team variables) - https://docs.codemagic.io/variables/environment-variable-groups/
@@ -95,8 +95,7 @@ workflows:
         publishing:
             email:
                 recipients:
-                    - user1@example.com
-                    - user2@example.com
+                    - pawanjes@gmail.com
                 notify:
                   success: true
                   failure: false   
