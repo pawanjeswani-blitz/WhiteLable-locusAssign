@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LocusAssignment</string>
+    <string name="submit_button">Submit</string>
+    <string name="logs">Logs</string>
+    <string name="provide_comment">Provide Comment?</string>
+    <string name="type_comment">Type comment</string>
+    <string name="perm_required_title">Permissions Required</string>
+    <string name="perm_required">In order to capture image, Camera and Storage permissions are required!!</string>
+    <string name="perm_required_positive">Allow</string>
+    <string name="perm_required_negative">Cancel!!!</string>
+</resources>
